@@ -43,8 +43,8 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto active" href="./index.html">Home</a></li>
-          <li><a class="nav-link scrollto" href="./About.html">About Us</a></li>
+          <li><a class="nav-link scrollto active" href="./index.php">Home</a></li>
+          <li><a class="nav-link scrollto" href="./About.php">About Us</a></li>
           <!-- <li><a class="nav-link scrollto" href="#products">products</a></li> -->
           <!-- <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>
           <li><a class="nav-link scrollto" href="#team">Team</a></li> -->
@@ -62,8 +62,8 @@
           </li>
         </ul>
         </li>
-        <li><a class="nav-link scrollto" href="./Gallery.html">Gallery</a></li>
-        <li><a class="nav-link scrollto" href="./index.html">Contact Us</a></li>
+        <li><a class="nav-link scrollto" href="./Gallery.php">Gallery</a></li>
+        <li><a class="nav-link scrollto" href="./index.php">Contact Us</a></li>
         <li><a class="getstarted scrollto" href="#about">Get Started</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
