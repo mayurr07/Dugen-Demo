@@ -1,5 +1,5 @@
 <?php
-include('medicine.php');
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
