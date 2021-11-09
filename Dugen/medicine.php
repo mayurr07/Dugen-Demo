@@ -1,5 +1,6 @@
 <?php
-include('./forms/fetch/fetchtablet.php')
+include('./forms/fetch/fetchtablet.php');
+include('./forms/database.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">
