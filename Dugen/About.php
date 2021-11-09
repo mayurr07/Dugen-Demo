@@ -65,9 +65,9 @@
               <li><a href="#">Drop Down 4</a></li> -->
             </ul>
           </li>
-          <li><a class="nav-link scrollto" href="./Gallery.html">Gallery</a></li>
-          <li><a class="nav-link scrollto" href="./index.html">Contact</a></li>
-          <li><a class="getstarted scrollto" href="./index.html">Get Started</a></li>
+          <li><a class="nav-link scrollto" href="./Gallery.php">Gallery</a></li>
+          <li><a class="nav-link scrollto" href="./index.php">Contact</a></li>
+          <li><a class="getstarted scrollto" href="./index.php">Get Started</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
