@@ -283,16 +283,17 @@
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/aos/aos.js?<?php ?>"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/purecounter/purecounter.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js?<?php ?>"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js?<?php ?>"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js?<?php ?>"></script>
+  <script src="assets/vendor/php-email-form/validate.js?<?php ?>"></script>
+  <script src="assets/vendor/purecounter/purecounter.js?<?php ?>"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js?<?php ?>"></script>
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js?<?php ?>"></script>
   <script>
+    <?php 
     function openCity(evt, cityName) {
       var i, tabcontent, tablinks;
       tabcontent = document.getElementsByClassName("tabcontent");
@@ -306,6 +307,7 @@
       document.getElementById(cityName).style.display = "block";
       evt.currentTarget.className += " active";
     }
+    ?>
   </script>
 
 </body>
