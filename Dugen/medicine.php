@@ -69,7 +69,7 @@ include('./forms/database.php');
     <body>
       <!-- ======= Portfolio Details Section ======= -->
       <section id="portfolio-details" class="portfolio-details">
-        <h2>medicines</h2>
+        <h2>Medicines</h2>
         <!-- <p>Click on the buttons inside the tabbed menu:</p> -->
 
         <div class="tab">
