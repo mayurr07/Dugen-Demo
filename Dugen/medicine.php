@@ -121,7 +121,7 @@
   </main><!-- End #main -->
 
   <!-- contact us -->
-
+  <?php ?>
   <section id="contact" class="contact section-bg">
     <div class="container" data-aos="fade-up">
 
@@ -293,7 +293,6 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js?<?php ?>"></script>
   <script>
-    <?php 
     function openCity(evt, cityName) {
       var i, tabcontent, tablinks;
       tabcontent = document.getElementsByClassName("tabcontent");
@@ -307,7 +306,6 @@
       document.getElementById(cityName).style.display = "block";
       evt.currentTarget.className += " active";
     }
-    ?>
   </script>
 
 </body>
