@@ -1,5 +1,5 @@
 <?php
-// include('./forms/fetch/fetchtablet.php');
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -80,6 +80,7 @@
 
         <div id="London" class="tabcontent">
           <?php
+          include('./forms/fetch/fetchtablet.php');
           while ($rows = $result->fetch_assoc()) {
           ?>
             <p><?php echo $rows['name']; ?></p>
