@@ -1,6 +1,5 @@
 <?php
-// include('./forms/fetch/fetchtablet.php');
-// include('./forms/database.php');
+include('./forms/fetch/fetchtablet.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -89,7 +88,7 @@
 
         <div id="Paris" class="tabcontent">
           <?php
-// <!--           include('./forms/fetch/fetchcaps.php') ?> -->
+           include('./forms/fetch/fetchcaps.php') ?> 
           <?php
           while ($rows = $result->fetch_assoc()) {
           ?>
@@ -99,7 +98,7 @@
 
         <div id="Tokyo" class="tabcontent">
           <?php
-//           include('./forms/fetch/fetchoral.php') ?>
+          include('./forms/fetch/fetchoral.php') ?>
           <?php
           while ($rows = $result->fetch_assoc()) {
           ?>
@@ -109,7 +108,7 @@
 
         <div id="inject" class="tabcontent">
           <?php
-//           include('./forms/fetch/fetchinject.php') ?>
+          include('./forms/fetch/fetchinject.php') ?>
           <?php
           while ($rows = $result->fetch_assoc()) {
           ?>
