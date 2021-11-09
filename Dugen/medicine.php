@@ -20,12 +20,12 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="assets/vendor/aos/aos.css?<?php ?>" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css?<?php ?>" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css?<?php ?>" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css?<?php ?>" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css?<?php ?>" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css?<?php ?>" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
   <!-- <link href="assets/css/style.css" rel="stylesheet"> -->
@@ -80,7 +80,7 @@
 
         <div id="London" class="tabcontent">
           <?php
-          include('./forms/fetch/fetchtablet.php');
+          include('/forms/fetch/fetchtablet.php');
           while ($rows = $result->fetch_assoc()) {
           ?>
             <p><?php echo $rows['name']; ?></p>
@@ -89,7 +89,7 @@
 
         <div id="Paris" class="tabcontent">
           <?php
-           include('./forms/fetch/fetchcaps.php') ?> 
+          include('/forms/fetch/fetchcaps.php') ?>
           <?php
           while ($rows = $result->fetch_assoc()) {
           ?>
@@ -99,7 +99,7 @@
 
         <div id="Tokyo" class="tabcontent">
           <?php
-          include('./forms/fetch/fetchoral.php') ?>
+          include('/forms/fetch/fetchoral.php') ?>
           <?php
           while ($rows = $result->fetch_assoc()) {
           ?>
@@ -109,7 +109,7 @@
 
         <div id="inject" class="tabcontent">
           <?php
-          include('./forms/fetch/fetchinject.php') ?>
+          include('/forms/fetch/fetchinject.php') ?>
           <?php
           while ($rows = $result->fetch_assoc()) {
           ?>
@@ -121,7 +121,7 @@
   </main><!-- End #main -->
 
   <!-- contact us -->
-  <?php ?>
+
   <section id="contact" class="contact section-bg">
     <div class="container" data-aos="fade-up">
 
@@ -282,16 +282,16 @@
   <div id="preloader"></div>
 
   <!-- Vendor JS Files -->
-  <script src="assets/vendor/aos/aos.js?<?php ?>"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js?<?php ?>"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js?<?php ?>"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js?<?php ?>"></script>
-  <script src="assets/vendor/php-email-form/validate.js?<?php ?>"></script>
-  <script src="assets/vendor/purecounter/purecounter.js?<?php ?>"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js?<?php ?>"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
 
   <!-- Template Main JS File -->
-  <script src="assets/js/main.js?<?php ?>"></script>
+  <script src="assets/js/main.js"></script>
   <script>
     function openCity(evt, cityName) {
       var i, tabcontent, tablinks;
