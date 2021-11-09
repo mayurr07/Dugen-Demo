@@ -57,7 +57,7 @@
           </li>
         </ul>
         </li>
-        <li class="dropdown"><a href="#"><span>Insert Meds</span> <i class="bi bi-chevron-down"></i></a>
+<!--         <li class="dropdown"><a href="#"><span>Insert Meds</span> <i class="bi bi-chevron-down"></i></a>
           <ul>
             <li><a href="./forms/insertcaps.php">CAPSULES</a></li>
             <li><a href="./forms/inserttablet.php">TABLETS</a></li>
@@ -65,8 +65,8 @@
             <li><a href="./forms/insertinject.php">INJECTIONS</a></li>
         </li>
         </ul>
-        </li>
-        <li><a class="nav-link scrollto" href="./Gallery.html">Gallery</a></li>
+        </li> -->
+        <li><a class="nav-link scrollto" href="./Gallery.php">Gallery</a></li>
         <li><a class="nav-link scrollto" href="#contact">Contact Us</a></li>
         <li><a class="getstarted scrollto" href="#about">Get Started</a></li>
         </ul>
